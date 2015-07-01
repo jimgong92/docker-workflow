@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var request= require('superttest')('http://localhost:8000');
+var request= require('supertest')('http://localhost:8000');
 
 describe('API', function(){
 	it('should add to the count', function(done){
