@@ -1,0 +1,30 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "counting api",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "node",
+    "nginx",
+    "redis"
+  ],
+  "author": "Jimmy Gong",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.0",
+    "hiredis": "^0.4.0",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
+  }
+}
